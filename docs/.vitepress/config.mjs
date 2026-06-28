@@ -145,6 +145,7 @@ export default defineConfig({
   title: "阿伟知识库",
   description: "阿伟的个人笔记与知识管理",
   lang: 'zh-CN',
+  base: '/my-knowledge-base/',
   vite: {
     plugins: [resizePlugin()]
   },
